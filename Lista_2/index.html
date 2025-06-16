@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Handball Products</h1>
+    </header>
+
+    <main>
+        <section class="vitrine">
+            <div class="produto" data-id="1">
+                <img src="imagens/bola.jpg" alt="Produto 1">
+                <h3 class="produto-nome">Bola H3</h3>
+                <p class="produto-preco">R$ 129,90</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto" data-id="2">
+                <img src="imagens/cola.jpg" alt="Produto 2">
+                <h3 class="produto-nome">Cola</h3>
+                <p class="produto-preco">R$ 89,99</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto" data-id="3">
+                <img src="imagens/removedor_de_cola.jpg" alt="Produto 3">
+                <h3 class="produto-nome">Removedor de cola</h3>
+                <p class="produto-preco">R$ 99,50</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto" data-id="4">
+                <img src="imagens/calça_goleiro.jpg" alt="Produto 4">
+                <h3 class="produto-nome">Calça de goleiro</h3>
+                <p class="produto-preco">R$ 159,00</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto" data-id="5">
+                <img src="imagens/Prancheta.jpg" alt="Produto 5">
+                <h3 class="produto-nome">Prancheta Tatica</h3>
+                <p class="produto-preco">R$ 69,90</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto" data-id="6">
+                <img src="imagens/Trave.jpg" alt="Produto 6">
+                <h3 class="produto-nome">Trave oficial</h3>
+                <p class="produto-preco">R$ 549,90</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <aside class="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <div class="carrinho-itens">
+                </div>
+            <div class="carrinho-total">
+                <p>Total: <span id="total-carrinho">R$ 0,00</span></p>
+            </div>
+            <button class="finalizar-compra">Finalizar Compra</button>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
